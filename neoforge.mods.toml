@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "aiplayers"
+version = "1.0.0"
+displayName = "AI Players"
+description = '''
+Автономные ИИ-игроки с мозгом на языковой модели: добывают ресурсы, крафтят, строят, едят, спят и общаются в чате.
+'''
+
+[[dependencies.aiplayers]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.aiplayers]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
